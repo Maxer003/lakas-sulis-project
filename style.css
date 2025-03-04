@@ -1,0 +1,10 @@
+.firstCont {
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.5);
+}
+
+#img {
+    border-radius: 5px;
+}

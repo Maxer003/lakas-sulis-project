@@ -1,5 +1,5 @@
 body {
-    background-color: azure;
+    background: linear-gradient(90deg, rgba(195,34,34,1) 35%, rgba(69,45,253,1) 100%);
     margin: 20px;
     justify-content: center;
 }
@@ -10,8 +10,11 @@ h1 {
 }
 
 .container {
+    position: relative;
     background-color: whitesmoke;
-    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 5px 6px rgba(0, 0, 0, 0.5);
@@ -60,5 +63,46 @@ h1 {
 }
 
 .összefoglalás ul, ol {
+    font-size: 20px;
+}
+
+.container2 {
+    position: relative;
+    background-color: whitesmoke;
+    margin-top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.info2 {
+    padding: 30px;
+    flex-grow: 1;
+}
+
+.lakások2 {
+    width: 150px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.lakások2 th, td {
+    border: 2px solid;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.összefoglalás2 h4 {
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+}
+
+.összefoglalás2 ul {
     font-size: 20px;
 }

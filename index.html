@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <h1>Eladó lakások</h1>
+    <h1 id="mainText">Eladó lakások</h1>
     <div class="container">
         <div class="rovid">
             <h3>Édes álom Zuglón!</h3>
@@ -129,7 +129,7 @@
     </div>
     </div>
 
-    <h1>Korábbi munkáink</h1>
+    <h1 id="mainText2">Korábbi munkáink</h1>
     <div class="container3">
         <div class="kepek">
             <img class="images" src="korabbi.jpg" alt="Első kép">
@@ -142,7 +142,39 @@
         </div>
     </div>
 
-    <h1>Lépjen kapcsolatba velünk</h1>
-
+    <h1 id="mainText2">Lépjen kapcsolatba velünk</h1>
+    <div class="container4">
+        <form action="">
+            <div class="inputFields">
+                <div class="leftSide">
+                    <div id="contantText" class="name">
+                        <label for="name">Adja meg a nevét!</label>
+                        <input type="text" name="name" id="name" placeholder="Név:">
+                    </div>
+                    <div id="contantText" class="email">
+                        <label for="email">Adja meg az email címét</label>
+                        <input type="text" name="email" id="email" placeholder="Email Cím:">
+                    </div>
+                    <div>
+                        <button type="submit">Küldés</button>
+                    </div>
+                </div>
+                <div class="middleSide">
+                    <div class="message">
+                        <label for="message">Hagyjon üzenetet</label>
+                        <textarea name="message" id="message" rows="10" cols="50"></textarea>
+                    </div>
+                </div>
+                <div class="rightSide">
+                    <h3>Elérhetőségek</h3>
+                    <p><strong>Cím:</strong>2323 Budapest lakás utca 13.</p>
+                    <p><strong>Telefon:</strong>+36 30 363 3636</p>
+                    <a href="tel:+36303633636">
+                        <img src="telephone2.gif" alt="hívás">
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
 </body>
 </html>

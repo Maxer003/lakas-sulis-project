@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="style.css">
     <title>Eladó lakásokt</title>
 </head>
+<header>
+    <h4>Találja meg álmai otthonát nálunk! Nézze meg modern lakásainkat, alakítsa ki igényinek megfelelően!</h4>
+</header>
 <body>
 
     <h1 id="mainText">Eladó lakások</h1>
@@ -156,13 +159,13 @@
                         <input type="text" name="email" id="email" placeholder="Email Cím:">
                     </div>
                     <div>
-                        <button type="submit">Küldés</button>
+                        <button id="send-btn" type="submit">Küldés</button>
                     </div>
                 </div>
                 <div class="middleSide">
                     <div class="message">
-                        <label for="message">Hagyjon üzenetet</label>
-                        <textarea name="message" id="message" rows="10" cols="50"></textarea>
+                        <label for="message"></label>
+                        <textarea name="message" id="message" placeholder="Hagyjon üzenetet" rows="10" cols="50"></textarea>
                     </div>
                 </div>
                 <div class="rightSide">
@@ -172,6 +175,7 @@
                     <a href="tel:+36303633636">
                         <img src="telephone2.gif" alt="hívás">
                     </a>
+                    <p><strong>Email:</strong><a href="mailto:info@pelda.hu">info@pelda.hu</a></p>
                 </div>
             </div>
         </form>
